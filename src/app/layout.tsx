@@ -4,6 +4,7 @@ import "./globals.css";
 import clsx from "clsx";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/CustomCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={clsx(inter.className, "bg-black text-white min-h-screen flex flex-col")}>
                 <Navbar />
+                <CustomCursor />
                 <div className="flex-grow">{children}</div>
                 <Footer />
             </body>
