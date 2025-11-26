@@ -13,7 +13,7 @@ export default function Contact() {
                 <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
                 <div className="w-full aspect-[4/3] md:aspect-[16/9] bg-white/5 rounded-lg overflow-hidden">
                     <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSfD-F9w-F9w-F9w/viewform?embedded=true"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSck41H_q5rGaxI2SlFLYoWE3CNG7ahNnyMgjekaXQsYPu6j5g/viewform?embedded=true"
                         width="100%"
                         height="100%"
                         frameBorder="0"
