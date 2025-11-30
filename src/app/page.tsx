@@ -28,7 +28,7 @@ const blogs = [
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center p-6 pt-24">
+        <div className="flex min-h-screen flex-col items-center p-6 pt-24">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -66,6 +66,6 @@ export default function Home() {
                     </SpotlightCard>
                 ))}
             </div>
-        </main>
+        </div>
     );
 }
